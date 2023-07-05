@@ -1,0 +1,139 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>BROETLI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+		[style*="Arial"] {font-family: 'Arial', sans-serif !important;}
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}  
+		table td {
+			border-collapse: collapse;
+		}  
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}       
+        h1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .container {
+            width: 560px;
+        }      
+        .logo {
+            margin-top: 48px;
+            margin-bottom: 18px;
+        }
+        .title {
+            margin-top: 16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        .title-size {
+            font-size: 22px;
+            width: 507px;
+        }
+        @media (max-width: 767px) {
+            .container {
+                width: 576px;
+            }
+        }
+        @media (max-width: 575px) {
+            .container {
+                width: 390px;
+            }
+            .title-size {
+                width: 100%;
+            }
+        }
+        @media (max-width: 389px) {
+            .container {
+                width: 320px;
+            }
+        }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;"></div>
+	<table class="container" cellpadding="0" cellspacing="0" bgcolor="#ffffff" align="center">
+        <tr>
+            <td>
+                <table class="logo" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%">
+                    <tr >
+                        <td align="center">
+                            <img src="https://im.wampi.ru/2023/06/05/Logo.png" alt="photo">
+                        </td>
+                    </tr>
+                </table>
+                <table class="title" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                            <h1 class="title-size" style="font-family: 'Inter'; font-family: Arial, Helvetica, sans-serif; font-weight: 700; line-height: 130%; color: #4A5566;">Пользователь  ${document.getElementById("name").value} оставил заявку!</h1>
+                        </td>
+                    </tr>
+                </table>
+                <table class="title" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                            <h1 class="title-size" style="font-family: 'Inter'; font-family: Arial, Helvetica, sans-serif; font-weight: 700; line-height: 130%; color: #4A5566;">Номер для связи <a href="tel:${document.getElementById("tel").value}">${document.getElementById("tel").value}</a></h1>
+                        </td>
+                    </tr>
+                </table>
+                <table class="title" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                            <h1 class="title-size" style="font-family: 'Inter'; font-family: Arial, Helvetica, sans-serif; font-weight: 700; line-height: 130%; color: #4A5566;">Выбранная услуга: ${document.getElementById("service").value}</h1>
+                        </td>
+                    </tr>
+                </table>
+                <table class="title" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                            <h1 class="title-size" style="font-family: 'Inter'; font-family: Arial, Helvetica, sans-serif; font-weight: 700; line-height: 130%; color: #4A5566;">Мастер : ${document.getElementById("master").value}</h1>
+                        </td>
+                    </tr>
+                </table>
+                <table class="title" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                            <h1 class="title-size" style="font-family: 'Inter'; font-family: Arial, Helvetica, sans-serif; font-weight: 700; line-height: 130%; color: #4A5566;">Запись на ${document.getElementById("datepicker-value").value} время ${document.querySelector('input[name="time"]:checked').value}:00</h1>
+                        </td>
+                    </tr>
+                </table>
+                <table class="bottom" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr>
+                        <td>
+                        
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+	</table>
+</body>
+</html>

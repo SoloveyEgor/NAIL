@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> DIANA Nail Saloon</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+
+<body>
+	<header>
+		<div class="header">
+			<img src="./img/logo.svg" alt="">
+
+			<div class="nav-switch" onclick="toggleMenu()">
+				<i class="fa fa-bars"></i>
+			</div>
+
+			<nav class="main-menu" id="menu">
+				<ul>
+					<li><a href="#intro">О нас</a></li>
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#masters">Мастера</a></li>
+					<li><a href="#reception">Онлайн-запись</a></li>
+					<li><a href="#contact">Контакты</a></li>
+					<li><img src="./img/header/Icon.svg" alt=""><a href="tel:+79494335173"> +7 (949) 433-51-73</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+	<main>
+
+		<section class="intro" id="intro">
+			<div class="inner-container">
+				<div class="intro_content">
+					<div class="intro_content__txt">
+						<h3>Салон ногтевого сервиса</h3>
+						<h1>Креативим,<br> мыслим нестандартно<br> и меняем индустрию<br> красоты </h1>
+						<p>Маникюрный салон “Diana” открыл двери для посетителей в 2022 году. С первого дня нашими базовыми принципами работы стали доброжелательность, чуткое отношение к каждому клиенту и высокий уровень профессионализма.</p>
+						<a href="#reception">Записаться</a>
+					</div>
+
+					<div class="intro_content__bottom">
+						<div class="intro_content__bottom-item">
+							<img src="./img/intro/1.svg" alt="">
+							<p>Красиво</p>
+						</div>
+
+						<div class="intro_content__bottom-item">
+							<img src="./img/intro/2.svg" alt="">
+							<p>Профессионально</p>
+						</div>
+
+						<div class="intro_content__bottom-item">
+							<img src="./img/intro/3.svg" alt="">
+							<p>Уютно</p>
+						</div>
+
+						<div class="intro_content__bottom-item">
+							<img src="./img/intro/4.png" alt="">
+							<p>Легко</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="inner-container">
+				<div class="about_content">
+					<div class="about_content__photo">
+						<img src="./img/about/photo.png" alt="">
+					</div>
+	
+					<div class="about_content__txt">
+						<h2>О салоне</h2>
+						<p>С первых секунд пребывания в салоне вы окунетесь в атмосферу заботы и доброжелательности. Почувствуете себя свободными от повседневной суеты, открыв новые ощущения от удовольствия от виртуозного мастерства наших специалистов.</p>
+						<p>Наши мастера создают настоящий шедевр, будь то простой или самый необычный маникюр, наращивание или педикюр -  все это будет выглядеть не только безупречно, но и профессионально.</p>
+						<p>У нас можно сделать не только классический маникюр и педикюр, но и спа маникюр, который предлагается и для мужчин. Наши мастера могут выполнять наращивание и дизайны совершенно разной сложности. Мы выполним любой ваш каприз!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="services">
+			<div class="inner-container">
+				<div class="services_content">
+					<h2>Услуги, предоставляемые студией</h2>
+					<p>В нашей студии вы получите огромное удовольствие от процедур и сможете получить великолепный результат. Ниже представлены наши услуги и прайс.</p>
+					
+					<div class="services_content__acor"> 
+    
+						<input type="radio" name="acor" id="acor1" checked="" />
+						<label for="acor1"><h4>Гигиенический маникюр</h4><img src="./img/acor/Arrow.svg" alt=""></label>
+						<div class="services_content__acor-body">
+							<div class="services_content__acor-body_content">
+								<div class="services_content__acor-body_content__txt">
+									<h3>Гигиенический маникюр -</h3>
+									<p>это набор обязательных для выполнения процедур с целью поддержания здорового и ухоженного вида ногтей. </p>
+									<p>Он включает в себя  минимальные, но самые важные компоненты ухода – пилинг, массаж, коррекция формы ногтей и кутикулы, укрепление и питание ногтевой пластины.</p>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Аппаратный маникюр </p>
+										<h5>900 рублей </h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Классический маникюр </p>
+										<h5>1000 рублей </h5>
+									</div>
+
+									<a href="#reception">Записаться</a>
+								</div>
+
+								<div class="services_content__acor-body_content__img">
+									<img src="./img/services/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						
+						<input type="radio" name="acor" id="acor2" />
+						<label for="acor2"><h4>Покрытие ногтей гель лаком</h4><img src="./img/acor/Arrow.svg" alt=""></label>
+						<div class="services_content__acor-body">
+							<div class="services_content__acor-body_content">
+								<div class="services_content__acor-body_content__txt">
+									<h3>Покрытие гель лаком  -</h3>
+									<p>это синтетическое покрытие для ногтей, созданное на основе геля для наращивания и лака (бесцветного или с пигментом)</p>
+									<p>Гель-лак полимеризуется в ультрафиолетовой или LED-лампе и после застывания становится прочным и стойким.</p>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Однотонное покрытие</p>
+										<h5>1300 рублей </h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Укрепление гелем</p>
+										<h5>+400 рублей</h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Дизайн</p>
+										<h5>+100 рублей</h5>
+									</div>
+
+									<a href="#reception">Записаться</a>
+								</div>
+
+								<div class="services_content__acor-body_content__img">
+									<img src="./img/services/2.png" alt="">
+								</div>
+							</div>
+						</div>
+						
+						<input type="radio" name="acor" id="acor3" />
+						<label for="acor3"><h4>Наращивание ногтей</h4><img src="./img/acor/Arrow.svg" alt=""></label>
+						<div class="services_content__acor-body">
+							<div class="services_content__acor-body_content">
+								<div class="services_content__acor-body_content__txt">
+									<h3>Наращивание/моделирование -</h3>
+									<p>процесс искусственного увеличения длины ногтя  с целью исправления дефектов натурального ногтя (расслаивание, слабость и ломкость ногтевой пластины и т. п.).</p>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Наращивание</p>
+										<h5>2000 рублей </h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Моделирование</p>
+										<h5>+400 рублей</h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Ремонт</p>
+										<h5>+100 рублей</h5>
+									</div>
+
+									<a href="#reception">Записаться</a>
+								</div>
+
+								<div class="services_content__acor-body_content__img">
+									<img src="./img/services/3.png" alt="">
+								</div>
+							</div>
+						</div>
+
+						<input type="radio" name="acor" id="acor4" />
+						<label for="acor4"><h4>Педикюр</h4><img src="./img/acor/Arrow.svg" alt=""></label>
+						<div class="services_content__acor-body">
+							<div class="services_content__acor-body_content">
+								<div class="services_content__acor-body_content__txt">
+									<h3>Педикюр -</h3>
+									<p>специальный уход за пальцами ног, например, удаление мозолей, полировка ногтей или покрытие ногтей лаком. По сути, он представляет собой аналог маникюра для ног.</p>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Педикюр</p>
+										<h5>1600 рублей </h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Пежикюр с покрытием  </p>
+										<h5>2000 рублей</h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>Мастер подолог</p>
+										<h5>2300 рублей</h5>
+									</div>
+
+									<a href="#reception">Записаться</a>
+								</div>
+
+								<div class="services_content__acor-body_content__img">
+									<img src="./img/services/4.png" alt="">
+								</div>
+							</div>
+						</div>
+
+						<input type="radio" name="acor" id="acor5" />
+						<label for="acor5"><h4>SPA- маникюр</h4><img src="./img/acor/Arrow.svg" alt=""></label>
+						<div class="services_content__acor-body">
+							<div class="services_content__acor-body_content">
+								<div class="services_content__acor-body_content__txt">
+									<h3>Spa- маникюр</h3>
+									<p>это вид маникюра, который включает комплексную процедуру ухода за руками и ногтями.</p>
+									<p>Он включает в себя обработку ногтей, удаление кутикулы, массаж рук и пальцев, ароматерапию, скрабирование, питательные маски и кремы.</p>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>SPA- маникюр</p>
+										<h5>1500 рублей </h5>
+									</div>
+									<div class="services_content__acor-body_content__txt-pricebox">
+										<p>SPA - педикюр</p>
+										<h5>1800 рублей</h5>
+									</div>
+									<a href="#reception">Записаться</a>
+								</div>
+
+								<div class="services_content__acor-body_content__img">
+									<img src="./img/services/5.png" alt="">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="masters" id="masters">
+			<div class="inner-container">
+				<div class="masters_content">
+					<h2>Мастера нашей студии</h2>
+					<p>Наши мастера с профессионализмом подойдут к любой вашей прихоти!</p>					
+				</div>
+				<div class="masters_cards">
+					<div class="masters_cards__item">
+						<img src="./img/masters/1.png" alt="">
+						<h5>Виктория</h5>
+						<p>Общий стаж работы мастером маникюра - 5 лет.</p>
+						<p>Обладает компетенциями в аппаратном и SPA - маникюре, работает со всеми видами лака и техниками нанесения, включая аэрографию.</p>
+					</div>
+					<div class="masters_cards__item">
+						<img src="./img/masters/2.png" alt="">
+						<h5>Амина</h5>
+						<p>Общий стаж работы мастером маникюра - 4 года.</p>
+						<p>Идеально проводит чистку и полировку ногтей. В разных техниках выполняет наращивание, любой сложности и длинны. </p>
+					</div>
+					<div class="masters_cards__item">
+						<img src="./img/masters/3.png" alt="">
+						<h5>Светлана</h5>
+						<p>Общий стаж работы мастером маникюра - 3 года.</p>
+						<p>Закончила различные курсы по педикюру. Выполняет аппаратный и классический педикюр. Является мастером подологом.</p>
+					</div>
+					<div class="masters_cards__item">
+						<img src="./img/masters/4.png" alt="">
+						<h5>Мария</h5>
+						<p>Общий стаж работы мастером маникюра -  4 года.</p>
+						<p>Владеет навыками скоростного маникюра и педикюра, в среднем 1.5 часа. Владеет знаниями психологии общения с клиентами. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reception" id="reception">
+			<div class="inner-container">
+				<div class="reception_content">
+					<h2>Запись онлайн</h2>
+					<p>В нашей студии вы можете заранее записаться на любую процедуру.</p>
+				</div>
+
+				<form class="reception_form" onsubmit="sendEmail(); reset(); return false;">
+
+					<div class="reception_form__line">
+						<div>
+							<label for="name"><p>Ваше имя</p></label>
+							<input type="name" id="name" placeholder="Ваше имя">
+						</div>
+
+						<div>
+							<label for="tel"><p>Ваш телефон</p></label>
+							<input type="tel" id="tel" placeholder="+7">				
+						</div>
+					</div>
+
+					<label for="service"><p>Выберите услугу</p></label>
+					<div class="reception_form__fullline">
+						<select name="service" id="service">
+							<option value="Гигиенический маникюр">Гигиенический маникюр</option>
+							<option value="Покрытие ногтей гель лаком">Покрытие ногтей гель лаком</option>
+							<option value="Наращивание/моделирование">Наращивание/моделирование</option>
+							<option value="Педикюр">Педикюр</option>
+							<option value="Spa- маникюр">Spa- маникюр</option>
+						</select>
+					</div>
+
+					<label for="master"><p>Выберите мастера</p></label>
+					<div class="reception_form__fullline">
+						<select name="master" id="master">
+							<option value="Виктория">Виктория</option>
+							<option value="Амина">Амина</option>
+							<option value="Светлана">Светлана</option>
+							<option value="Мария">Мария</option>
+						</select>
+					</div>
+					
+					<div class="reception_form__line">
+						<div>
+							<label for="date"><p>Выберите дату </p></label>
+							<div class="input-group date reception_form__line-calendar" id="datepicker">
+								<input type="text" id="datepicker-value" class="form-control" style="display: none;">
+							</div>
+						</div>
+						<div>
+							<label for="time"><p>Выберите время </p></label>
+
+							<div class="reception_form__line-date">							
+								<input type="radio" name="time" id="timeChoice1" value="9">
+								<label for="timeChoice1">09:00</label>
+							
+								<input type="radio" name="time" id="timeChoice2" value="10">
+								<label for="timeChoice2">10:00</label>
+							
+								<input type="radio" name="time" id="timeChoice3" value="11">
+								<label for="timeChoice3">11:00</label>
+	
+								<input type="radio" name="time" id="timeChoice4" value="12">
+								<label for="timeChoice4">12:00</label>
+	
+								<input type="radio" name="time" id="timeChoice5" value="13">
+								<label for="timeChoice5">13:00</label>
+	
+								<input type="radio" name="time" id="timeChoice6" value="14">
+								<label for="timeChoice6">14:00</label>
+	
+								<input type="radio" name="time" id="timeChoice7" value="15">
+								<label for="timeChoice7">15:00</label>
+	
+								<input type="radio" name="time" id="timeChoice8" value="16">
+								<label for="timeChoice8">16:00</label>
+	
+								<input type="radio" name="time" id="timeChoice9" value="17">
+								<label for="timeChoice9">17:00</label>
+	
+								<input type="radio" name="time" id="timeChoice10" value="18">
+								<label for="timeChoice10">18:00</label>
+	
+								<input type="radio" name="time" id="timeChoice11" value="19">
+								<label for="timeChoice11">19:00</label>
+	
+								<input type="radio" name="time" id="timeChoice12" value="20">
+								<label for="timeChoice12">20:00</label>
+								
+							</div>
+						</div>
+					</div>
+
+					<button type="submit">Записаться</button>
+				</form>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="inner-container">
+				<div class="contact_content">
+					<h2>Мы всегда на связи с вами</h2>
+					<p>Ждем вас по этому адресу!</p>
+
+					<div class="contact_content__social">
+						<div class="contact_content__social-card">
+							<img src="./img/contact/tel.png" alt="">
+							<p>+7 (949) 4335173</p>
+						</div>
+
+						<div class="contact_content__social-card">
+							<img src="./img/contact/mail.png" alt="">
+							<p>dianasalon@mail.com</p>
+						</div>
+
+						<div class="contact_content__social-card">
+							<img src="./img/contact/map.png" alt="">
+							<p>г.Донецк, ул.Артема, д.160</p>
+						</div>
+	
+					</div>
+
+					<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/142/donetsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Донецк</a><a href="https://yandex.ru/maps/142/donetsk/house/vulytsia_artema_160/Z04YcQBjSUYCQFpifXxydn1mYQ==/?ll=37.773035%2C48.037155&utm_medium=mapframe&utm_source=maps&z=17.28" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Артёма, 160 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.773035%2C48.037155&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNDQ4NjgxNDYxEj7Qo9C60YDQsNGX0L3QsCwg0JTQvtC90LXRhtGM0LosINCy0YPQu9C40YbRjyDQkNGA0YLQtdC80LAsIDE2MCIKDZcXF0IVDCZAQg%2C%2C&z=17.28" width="100%" height="240px" frameborder="1" allowfullscreen="true" style="position:relative; border-radius: 24px;"></iframe></div>	
+				
+					<div class="contact_content__social">
+						<div class="contact_content__social-card">
+							<img src="./img/contact/fb.png" alt="">
+						</div>
+						<div class="contact_content__social-card">
+							<img src="./img/contact/inst.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="inner-container">
+			<div class="footer_content">
+				<p>Проект реализовала: Тупицына Анастасия</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+	
+	<script>
+		function toggleMenu() {
+			let menu = document.getElementById('menu');
+			$(menu).slideToggle(500);
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(function() {
+			$('#datepicker').datepicker();
+		});
+	</script>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
+
+<!-- 73495783456Fg -->
+
+<!--Pass 3011967A93648D341531B7DC862D094C0DC0 -->
+<!--Token 2afbd143-30f3-4be9-9fe8-c611cb7bcae1 -->
+
+<!-- Username : "DianaNailWork@gmail.com",
+				Password : "Zyu-Dy2-53Z-LYZ", -->
+
+				
